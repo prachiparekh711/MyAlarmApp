@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Custom Navigation Drawer</string>
+    <string name="title">My Clock</string>
+    <string name="alarm">Alarm</string>
+    <string name="clock">Clock</string>
+    <string name="timer">Timer</string>
+    <string name="stopwatch">Stopwatch</string>
+
+    <string name="add_Label">Add Label</string>
+    <string name="default_ring">Default (delight)</string>
+    <string name="vibrant">Vibrant</string>
+    <string name="delete">Delete</string>
+
+    <string name="select_time">Select time</string>
+
+    <string name="label">Label</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+
+
+</resources>

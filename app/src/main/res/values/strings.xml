@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Clock</string>
+    <string name="feedback_email">bitbotdevelopers@gmail.com</string>
+    <string name="policy">https://clockprivacy.blogspot.com/2022/01/your-privacy-is-important-to-gallery.html</string>
+
+    <string name="cancel">CANCEL</string>
+
+    <string name="title_alarm">Alarm %d</string>
+    <string name="title_set_timer">Timer</string>
+    <string name="title_stopwatch">Stopwatch</string>
+    <string name="title_lap_number" translatable="false">%d</string>
+    <string name="title_lap_time">Lap: %s</string>
+    <string name="title_total_time">Total: %s</string>
+    <string name="msg_delete_confirmation">Are you sure you want to delete %s?</string>
+    <string name="title_sound_none">None</string>
+    <string name="title_alarms">Alarms</string>
+    <string name="title_ringtones">Ringtones</string>
+    <string name="word_day">day</string>
+    <string name="word_days">days</string>
+    <string name="word_minute">minute</string>
+    <string name="word_minutes">minutes</string>
+    <string name="word_hour">hour</string>
+    <string name="word_hours">hours</string>
+    <string name="word_join">and</string>
+    <string name="title_snooze_custom">Custom…</string>
+    <string name="title_sleep_reminder">Sleep Reminder</string>
+    <string name="msg_sleep_reminder">Your next alarm will ring approximately %s from now. To get your specified amount of sleep in the settings menu, you should go to bed now.</string>
+
+    <string name="day_sunday_abbr">S</string>
+    <string name="day_monday_abbr">M</string>
+    <string name="day_tuesday_abbr">T</string>
+    <string name="day_wednesday_abbr">W</string>
+    <string name="day_thursday_abbr">T</string>
+    <string name="day_friday_abbr">F</string>
+    <string name="day_saturday_abbr">S</string>
+
+
+    <string name="style">Style</string>
+    <string name="analog">Analog</string>
+    <string name="digital">Digital</string>
+
+    <string name="d_sec">Display time with Seconds</string>
+    <string name="change">Change date and Time</string>
+
+    <string name="silence">Silence after</string>
+    <string name="after">10 minutes</string>
+
+    <string name="snooze_l">Snooze length</string>
+    <string name="a_volume">Alarm volume</string>
+
+    <string name="home_time">Home time zone</string>
+
+</resources>

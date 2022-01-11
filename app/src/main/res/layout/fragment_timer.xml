@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/mFirstView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+            <io.github.deweyreed.scrollhmspicker.ScrollHmsPicker
+                android:id="@+id/scrollHmsPicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                app:shp_normal_color="@color/bg_grey"
+                app:shp_selected_color="@color/white" />
+
+            <ImageView
+                android:id="@+id/mPlay"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:background="@drawable/ic_selected_day"
+                android:padding="@dimen/_10sdp"
+                android:src="@drawable/ic_play"
+                app:tint="@color/white" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/mSecondView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <me.jfenn.alarmio.views.ProgressTextView
+                android:id="@+id/timeProgrss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="16dp"
+                android:layout_marginHorizontal="@dimen/_30sdp" />
+
+
+            <ImageView
+                android:id="@+id/mPause"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:background="@drawable/ic_selected_day"
+                android:padding="@dimen/_10sdp"
+                android:src="@drawable/ic_pause"
+                app:tint="@color/white" />
+        </RelativeLayout>
+    </RelativeLayout>
+</layout>

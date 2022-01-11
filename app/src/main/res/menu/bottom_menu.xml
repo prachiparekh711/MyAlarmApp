@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/alarm"
+        android:icon="@drawable/ic_alarm"
+        android:title="@string/alarm"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/clock"
+        android:icon="@drawable/ic_clock"
+        android:title="@string/clock"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/timer"
+        android:icon="@drawable/ic_timer"
+        android:title="@string/timer"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/stopwatch"
+        android:icon="@drawable/ic_stopwatch"
+        android:title="@string/stopwatch"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
